@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+    font-family: 'Slabo 27px', Montserrat, serif;
+    font-size: 12pt;
+    max-width: 960px;
+    overflow: auto;
+    position: relative;
+    margin: auto;
+    color: #808080;
+    background-image: url(resume-background.png): repeat-y;
+    padding: 50px;
+}
+
+header {
+    align-content: center;
+    overflow: auto;
+    margin: inherit;
+}
+
+address {
+    text-align: center;
+    margin: inherit;
+}
+
+main {
+    position: relative;
+    margin: inherit;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #dd363e;
+    margin: inherit;
+}
+
+h2 {
+    white-space: ;
+}
+
+h2,
+h3 {
+    color: #dd363e;
+    margin: inherit;
+    padding-bottom: 7px;
+}
+
+h3,
+h4 {
+    display: inline;
+    color: #dd363e;
+    margin: inherit;
+}
+
+h4 {
+    font-size: 12px;
+    position: relative;
+    text-align: right;
+    margin: inherit;
+}
+
+nav {
+    margin: inherit;
+    text-align: center;
+    width: 250px;
+    display: block;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+section {
+    text-align: left;
+    margin: inherit;
+}
+
+.beta table,
+.beta th,
+.beta td {
+    border: 1px solid black;
+}
+
+a:link {
+    color: #dd363e;
+}
+
+a:visited {
+    color: #555555;
+}
+
+a:hover {
+    color: #878787;
+}
+
+a:active {
+    color: #dd363e;
+}
