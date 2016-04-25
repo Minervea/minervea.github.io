@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+    font-family: 'Slabo 27px', Montserrat, serif;
+    font-size: 12pt;
+    max-width: 960px;
+    overflow: auto;
+    position: relative;
+    margin: auto;
+    color: #808080;
+    background-image: url(resume-background.png): repeat-y;
+    padding: 50px;
+}
