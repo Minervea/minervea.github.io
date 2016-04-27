@@ -1,0 +1,63 @@
+@media (max-width: 320px) {
+    @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+    @import url(https://fonts.googleapis.com/css?family=Montserrat);
+    body {
+        font-family: 'Slabo 27px', Montserrat, serif;
+        font-size: 12pt;
+        overflow: auto;
+        margin: auto;
+        color: #808080;
+        background-image: url(05-blackpaper.png);
+        padding: 50px;
+        max-width: 320px;
+    }
+    h1 {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    h1+p {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    img {
+        max-height: 300px;
+        border: 2px solid #808080;
+        border-radius: 4px;
+        padding: 5px;
+        max-width: inherit;
+    }
+    p.description {
+        text-align: left;
+        max-width: inherit;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        width: 250px;
+        display: inline-block;
+    }
+    ul+a {
+        display: inline-block;
+        width: 60px;
+    }
+    li a {
+        display: inline-block;
+        color: #808080;
+        padding-bottom: 8px;
+        padding top: 8px;
+        text-decoration: none;
+        text-align: left;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        background-color: background-color: #555;
+        color: white;
+    }
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+}
