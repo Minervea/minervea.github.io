@@ -6,7 +6,7 @@ body {
     max-width: 960px;
     overflow: auto;
     margin: auto;
-    color: #808080;
+    color: whitesmoke;
     background-image: url(05-blackpaper.png);
     padding: 50px;
 }
@@ -14,13 +14,18 @@ body {
 h1 {
     text-align: center;
     letter-spacing: 2px;
+    color: #dd363e;
 }
 
 h1+p {
     text-align: center;
     letter-spacing: 2px;
+    color: #dd363e;
 }
 
+h2 {
+    color: #dd363e;
+}
 h3 {
     text-align: center
 }
@@ -54,34 +59,53 @@ section.essay {
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-    width: 57%;
-    display: block;
+   
 }
 
 ul+a {
-    display: inline-block;
-    width: 60px;
+   
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ li {
+    float: left;
+}
 li a {
     display: block;
-    color: #808080;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
     padding-bottom: 8px;
     padding top: 8px;
     text-decoration: none;
-    text-align: left;
     font-size: 18px;
     letter-spacing: 2px;
-    line-height: 30px;
-    background-color: background-color: #555;
-    color: white;
+    color: #dd363e;
 }
 
 li a:hover {
     background-color: #555;
     color: white;
     width: inherit;
+}
+
+address.contact {
+        
+        text-align: center;
+        align-content: center;
+        
+    }
+address.contact a {
+ color: #dd363e;
+    text-decoration: none;
+    
+}
+address.contact a:hover {
+    color: white;
 }
