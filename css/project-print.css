@@ -1,0 +1,80 @@
+body {
+    font-size: 12pt;
+    font-family: serif;
+    margin: 0in;
+    padding: 0in;
+    color: #000;
+    background: #fff;
+}
+
+header {
+    align-content: center;
+    overflow: auto;
+    margin: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+address {
+    align-content: center;
+    overflow: auto;
+    margin: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: inherit;
+    padding: inherit;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+    white-space: nowrap;
+    margin: inherit;
+    padding-bottom: 3pt;
+}
+
+h3 {
+    white-space: nowrap;
+    margin: inherit;
+    padding: inherit;
+}
+
+h4 {
+    margin: inherit;
+    padding: inherit;
+}
+
+h5 {
+    margin: inherit;
+    padding: inherit;
+}
+
+p {
+    margin: inherit;
+    padding-top: 2pt;
+}
+
+a[href^="http"] {
+    display: inline;
+    color: black;
+}
+
+a[href^=http]:after {
+    content: " (" attr(href) ") ";
+    color: black;
+}
+
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: none;
+}
